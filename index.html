@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheet/master.css">
+    <link rel="stylesheet" href="assets/stylesheet/reset.css">
+    <!-- لینک فونت آیکون‌های Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- //// start topnav///// -->
+        <div class="topnav">
+            <!--///// left div////// -->
+            <div class="left">
+                <div>
+                    <a href=""><i style="margin-right: 10px;width: 20px;" class="bi bi-telephone"></i>1-800-1234-567</a>
+                </div>
+                <div>
+                    <a href=""><i style="margin-right: 10px;width: 20px;" class="bi bi-envelope"></i>info
+                        @demolink.org</a>
+                </div>
+            </div>
+            <!--///// right div////// -->
+
+            <div class="right">
+                <a href=""><i style="margin-right: 10px;width: 20px;" class="bi bi-box-arrow-in-right"></i>Login /
+                    Register</a>
+            </div>
+        </div>
+        <!-- //// start head///// -->
+        <div class="head">
+            <div class="image">
+                <figure><img src="assets/image/img/logo-default-284x82.webp" alt=""></figure>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-house"></i>HOME</a></li>
+                        <li><a href=""><i style="margin-right: 2px;width: 20px;"
+                                    class="bi bi-check2-circle"></i>PROPERTIES</a></li>
+                        <li><a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-file-person"></i>ABOUT
+                                US</a></li>
+                        <li><a href=""><i style="margin-right: 2px;width: 20px;"
+                                    class="bi bi-pencil-square"></i>BLOG</a></li>
+                        <li><a href=""><i style="margin-right: 2px;width: 20px;"
+                                    class="bi bi-person-rolodex"></i>CONTACT US</a></li>
+                    </ul>
+                </nav>
+                <!-- <input type="text" value="SUBMIT PROPERTY"> -->
+            </div>
+        </div>
+    </header>
+    <!-- /////main//// -->
+    <main>
+        <!-- /////////first section//////// -->
+        <div class="first-section">
+            <!-- ///////left div////////// -->
+            <div class="regist">
+                <div class="title">
+                    <h1>Find Your Property</h1>
+                </div>
+                <div class="select">
+                    <div class="top-select">
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                                <option value="0" style="display: none;">Choose Location</option>
+                                <option value="1">Alaska</option>
+                                <option value="2">Arizona</option>
+                                <option value="3">Arkansas</option>
+                                <option value="4">California</option>
+                                <option value="5">Colorado</option>
+                                <option value="6">Connecticut</option>
+                                <option value="7">Delaware</option>
+                                <option value="8">Florida</option>
+                            </select>
+                        </div>
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                                <option value="0" style="display: none;">Property Type</option>
+                                <option value="1">Apartment</option>
+                                <option value="2">House</option>
+                                <option value="3">Lot</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="bottom-select">
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                                <option value="0" style="display: none;">Property Status</option>
+                                <option value="1">for Sale</option>
+                                <option value="2">For Rent</option>
+                            </select>
+                        </div>
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                                <option value="0" style="display: none;">Min Baths</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+                        </div>
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                                <option value="0" style="display: none;">Min Beds</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="range">
+                    <div class="top-range">
+                        <label for="">Price Range ($)</label>
+                        <input type="range" min="50" max="10000">
+                    </div>
+                    <div class="bottom-range">
+                        <label for="">Area (Sq Ft)</label>
+                        <input type="range" min="70" max="20000">
+                    </div>
+                </div>
+                <!-- ////////search//////// -->
+                <div class="search">
+                    <div class="text-search">
+                        <p>Look for certain features</p>
+                    </div>
+                    <div class="btn-search"><a href="">SEARCH</a></div>
+                </div>
+            </div>
+            <!-- ///////right div/////// -->
+            <div class="right-section">
+                <div>
+                    <figure><img src="assets/image/img/pic-one.jpg" alt="">
+                        <figcaption>
+                            <h3>923 Folsom St, San Francisco</h3>
+                            <a href="">3 bedrooms, $240\day</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure><img src="assets/image/img/pic-tow.avif" alt="">
+                        <figcaption>
+                            <h3>3895 NW 107th Ave, Doral</h3>
+                            <a href="">2 bedrooms, $130\day</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- ///////Recent Properties/////// -->
+                <div>
+                    <h2>Recent Properties</h2>
+                    <div>
+                        <a href="">
+                            < PREV</a>
+                                <a href="">NEXT ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ///////two section////// -->
+        <div class="one-container">
+            <div class="content">
+                <div>
+                    <div class="icon"><i class="bi bi-geo-alt"></i></div>
+                    <strong>Various Locations</strong>
+                    <p>We have lots of properties in various locations available for purchase.</p>
+                </div>
+                <div>
+                    <div class="icon"><i class="bi bi-wallet2"></i></div>
+                    <strong>No Commission</strong>
+                    <p>Opportunity to acquire a quality apartment for rent without having to pay any commission.</p>
+                </div>
+                <div>
+                    <div class="icon"><i class="bi bi-search"></i></div>
+                    <strong>View Apartments</strong>
+                    <p>View apartment listings with photos, HD videos, virtual tours, 3D floor plans etc.</p>
+                </div>
+            </div>
+        </div>
+        <!-- /////////three section///// -->
+        <div class="second-container">
+            <div class="content">
+            <div>
+                <div><strong>Featured Properties</strong></div>
+                <div>
+                    <a href="">For Rent</a>
+                    <a href="">For Sale</a>
+                </div>
+            </div>
+            <div>
+                <figure></figure>
+                <figure></figure>
+                <figure></figure>
+                <figure></figure>
+                <figure></figure>
+                <figure></figure>
+            </div>
+            <div></div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
