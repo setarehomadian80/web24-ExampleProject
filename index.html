@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheet/master.css">
+    <link rel="stylesheet" href="assets/stylesheet/reset.css">
+    <!-- لینک فونت آیکون‌های Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- //// start topnav///// -->
+        <div class="topnav">
+            <!--///// left div////// -->
+            <div class="left">
+                <div>
+                    <a href=""><i style="margin-right: 10px;width: 20px;" class="bi bi-telephone"></i>1-800-1234-567</a>
+                </div>
+                <div>
+                    <a href=""><i style="margin-right: 10px;width: 20px;" class="bi bi-envelope"></i>info
+                        @demolink.org</a>
+                </div>
+            </div>
+            <!--///// right div////// -->
+
+            <div class="right">
+                <a href=""><i style="margin-right: 10px;width: 20px;" class="bi bi-box-arrow-in-right"></i>Login /
+                    Register</a>
+            </div>
+        </div>
+        <!-- //// start head///// -->
+        <div class="head">
+            <div class="image">
+                <figure><img src="assets/image/img/logo-default-284x82.webp" alt=""></figure>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-house"></i>HOME</a></li>
+                        <li><a href=""><i style="margin-right: 2px;width: 20px;"
+                                    class="bi bi-check2-circle"></i>PROPERTIES</a></li>
+                        <li><a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-file-person"></i>ABOUT
+                                US</a></li>
+                        <li><a href=""><i style="margin-right: 2px;width: 20px;"
+                                    class="bi bi-pencil-square"></i>BLOG</a></li>
+                        <li><a href=""><i style="margin-right: 2px;width: 20px;"
+                                    class="bi bi-person-rolodex"></i>CONTACT US</a></li>
+                    </ul>
+                </nav>
+                <!-- <input type="text" value="SUBMIT PROPERTY"> -->
+            </div>
+        </div>
+    </header>
+    <!-- /////main//// -->
+    <main>
+        <!-- /////////first section//////// -->
+        <div class="first-section">
+            <!-- ///////left div////////// -->
+            <div class="regist">
+                <div class="title">
+                    <h1>Find Your Property</h1>
+                </div>
+                <div class="select">
+                    <div class="top-select">
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                                <option value="0" style="display: none;">Choose Location</option>
+                                <option value="1">Alaska</option>
+                                <option value="2">Arizona</option>
+                                <option value="3">Arkansas</option>
+                                <option value="4">California</option>
+                                <option value="5">Colorado</option>
+                                <option value="6">Connecticut</option>
+                                <option value="7">Delaware</option>
+                                <option value="8">Florida</option>
+                            </select>
+                        </div>
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                                <option value="0" style="display: none;">Property Type</option>
+                                <option value="1">Apartment</option>
+                                <option value="2">House</option>
+                                <option value="3">Lot</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="bottom-select">
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                                <option value="0" style="display: none;">Property Status</option>
+                                <option value="1">for Sale</option>
+                                <option value="2">For Rent</option>
+                            </select>
+                        </div>
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                                <option value="0" style="display: none;">Min Baths</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+                        </div>
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                                <option value="0" style="display: none;">Min Beds</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="range">
+                    <div class="top-range">
+                        <label for="">Price Range ($)</label>
+                        <input type="range" min="50" max="10000">
+                    </div>
+                    <div class="bottom-range">
+                        <label for="">Area (Sq Ft)</label>
+                        <input type="range" min="70" max="20000">
+                    </div>
+                </div>
+                <!-- ////////search//////// -->
+                <div class="search">
+                    <div class="text-search">
+                        <p>Look for certain features</p>
+                    </div>
+                    <div class="btn-search"><a href="">SEARCH</a></div>
+                </div>
+            </div>
+            <!-- ///////right div/////// -->
+            <div class="right-section">
+                <div>
+                    <figure><img src="assets/image/img/pic-one.jpg" alt="">
+                        <figcaption>
+                            <h3>923 Folsom St, San Francisco</h3>
+                            <a href="">3 bedrooms, $240\day</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure><img src="assets/image/img/pic-tow.avif" alt="">
+                        <figcaption>
+                            <h3>3895 NW 107th Ave, Doral</h3>
+                            <a href="">2 bedrooms, $130\day</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- ///////Recent Properties/////// -->
+                <div>
+                    <h2>Recent Properties</h2>
+                    <div>
+                        <a href="">
+                            < PREV</a>
+                                <a href="">NEXT ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ///////two section////// -->
+        <div class="two-container">
+            <div class="content">
+                <div>
+                    <div class="icon"><i class="bi bi-geo-alt"></i></div>
+                    <strong>Various Locations</strong>
+                    <p>We have lots of properties in various locations available for purchase.</p>
+                </div>
+                <div>
+                    <div class="icon"><i class="bi bi-wallet2"></i></div>
+                    <strong>No Commission</strong>
+                    <p>Opportunity to acquire a quality apartment for rent without having to pay any commission.</p>
+                </div>
+                <div>
+                    <div class="icon"><i class="bi bi-search"></i></div>
+                    <strong>View Apartments</strong>
+                    <p>View apartment listings with photos, HD videos, virtual tours, 3D floor plans etc.</p>
+                </div>
+            </div>
+        </div>
+        <!-- /////////three section///// -->
+        <div class="three-container">
+            <div class="content">
+                <div class="head-secondpage">
+                    <div><strong>Featured Properties</strong></div>
+                    <div>
+                        <a href=""><i class="bi bi-slash-lg"></i>For Rent</a>
+                        <a href=""><i class="bi bi-slash-lg"></i>For Sale</a>
+                    </div>
+                </div>
+                <div class="image-page row">
+                    <figure><img src="assets/image/img/pic1.jpg" alt="">
+                        <div class="text">
+                            <p>401 Biscayne Boulevard, Miami</p>
+                        </div>
+                        <div class="description row">
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>480 Sq
+                                Ft</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>2
+                                Bedrooms</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>2
+                                Bathrooms</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>1
+                                Garage</a>
+                        </div>
+                    </figure>
+                    <figure><img src="assets/image/img/pic2.jpg" alt="">
+                        <div class="text">
+                            <p>401 Biscayne Boulevard, Miami</p>
+                        </div>
+                        <div class="description row">
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>535 Sq
+                                Ft</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>2
+                                Bedrooms</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>2
+                                Bathrooms</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>1
+                                Garage</a>
+                        </div>
+                    </figure>
+                    <figure><img src="assets/image/img/pic3.jpg" alt="">
+                        <div class="text">
+                            <p>401 Biscayne Boulevard, Miami</p>
+                        </div>
+                        <div class="description row">
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>435 Sq
+                                Ft</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>2
+                                Bedrooms</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>2
+                                Bathrooms</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>1
+                                Garage</a>
+                        </div>
+                    </figure>
+                    <figure><img src="assets/image/img/pic4.jpg" alt="">
+                        <div class="text">
+                            <p>401 Biscayne Boulevard, Miami</p>
+                        </div>
+                        <div class="description row">
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>430 Sq
+                                Ft</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>2
+                                Bedrooms</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>2
+                                Bathrooms</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>1
+                                Garage</a>
+                        </div>
+                    </figure>
+                    <figure><img src="assets/image/img/pic5.jpg" alt="">
+                        <div class="text">
+                            <p>401 Biscayne Boulevard, Miami</p>
+                        </div>
+                        <div class="description row">
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>182 Sq
+                                Ft</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>2
+                                Bedrooms</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>2
+                                Bathrooms</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>1
+                                Garage</a>
+                        </div>
+                    </figure>
+                    <figure><img src="assets/image/img/pic6.jpg" alt="">
+                        <div class="text">
+                            <p>401 Biscayne Boulevard, Miami</p>
+                        </div>
+                        <div class="description row">
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>530 Sq
+                                Ft</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>2
+                                Bedrooms</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>2
+                                Bathrooms</a>
+                            <a href=""><i style="margin-right: 2px;width: 20px;" class="bi bi-caret-right"></i>1
+                                Garage</a>
+                        </div>
+                    </figure>
+                </div>
+                <div class="btn"><a href="">VIEW ALL PROPERTISE</a></div>
+            </div>
+        </div>
+        <div class="back-img">
+            <div class="number">
+                <span>860</span>
+                <span>29</span>
+                <span>10K</span>
+                <span>15</span>
+            </div>
+            <div class="text-span">
+                <p>Properties on Map</p>
+                <p>Professional Agents</p>
+                <p>Happy Clients</p>
+                <p>New Apartments Daily</p>
+            </div>
+        </div>
+        <!-- //////people's opinion///// -->
+        <div class="end-section">
+
+            <!-- ////////head endpage////// -->
+            <div class="head-endpage">
+                <p>What People Say</p>
+            </div>
+
+            <!-- ////////description///// -->
+            <div class="comment">
+                <div class="every-person">
+                    <p>Your property managers have been active in their response to repairs and always patient with our
+                        frustrations. You have always found us wonderful tenants.</p>
+                    <div class="profile">
+                        <div class="profile-img"><img src="assets/image/img/pro1.jpg" alt=""></div>
+                        <div class="name-people">Karen Sanders</div>
+                    </div>
+                </div>
+                <div class="every-person">
+                    <p>We recently rented an apartment through your site, and have been looked after by James Thompson.
+                        He provided us with utmost support on every property issue.</p>
+                    <div class="profile">
+                        <div class="profile-img"><img src="assets/image/img/pro2.jpg" alt=""></div>
+                        <div class="name-people">Walter Williams</div>
+                    </div>
+                </div>
+                <div class="every-person">
+                    <p>I have always found your team to be extremely prompt and professional with all dealings I have
+                        had with them. You always keep me updated on the progress.</p>
+                    <div class="profile">
+                        <div class="profile-img"><img src="assets/image/img/pro3.jpg" alt=""></div>
+                        <div class="name-people">Kate Anderson</div>
+                    </div>
+                </div>
+                <div class="every-person">
+                    <p>Your advice and support from our initial meeting through liaising with current tenants and a
+                        polished marketing program all contributed to a great sale process, thanks!</p>
+                    <div class="profile">
+                        <div class="profile-img"><img src="assets/image/img/pro4.jpg" alt=""></div>
+                        <div class="name-people">Peter Smith</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ////////end main/////// -->
+     <!-- ////////start footer////// -->
+    <footer>
+        <div class="section-f">
+        <div class="left-f">
+            <strong>Contact Us</strong>
+            <a href=""><i style="margin-right: 5px;width: 20px;" class="bi bi-telephone"></i>1-800-700-6200<a>
+            <a href=""><i style="margin-right: 5px;width: 20px;" class="bi bi-envelope"></i>info@demolinkorg<a>
+            <p><i style="margin-right: 5px;width: 20px;" class="bi bi-geo-alt"></i>3015 Grand Ave,
+                                Coconut
+                                Grove,Merrick Way, FL 12345</p>
+        </div>
+        <div class="right-f">
+            <strong>Newsletter Signup</strong>
+            <p>Enter your e-mail to get the latest news of MyHome</p>
+            <input type="email" name="" id="" placeholder="your @email">
+        </div>
+    </div>
+    </footer>
+         <!-- ////////end footer////// -->
+</body>
+
+</html>
