@@ -8,7 +8,7 @@ It's not responsive yet, but it has a nice layout and is a great starting point 
 ## 📸 Preview
 
 <div align="center">
-  <img src="assets/preview.png" alt="Project Screenshot" width="700"/>
+  <img src="assets/img/sc.png" alt="Project Screenshot" width="700"/>
 </div>
 
 ---
