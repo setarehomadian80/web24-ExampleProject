@@ -33,7 +33,7 @@ It's not responsive yet, but it has a nice layout and is a great starting point 
 ## 🔗 Live Demo
 
 You can see the project live here:  
-👉 [Click to View Demo](https://setarehomadian80.github.io/web24-ExampleProject/)
+👉 [Click to View Demo](http://127.0.0.1:5500/index.html))
 
 ---
 
