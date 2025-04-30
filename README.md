@@ -29,7 +29,6 @@ It's not responsive yet, but it has a nice layout and is a great starting point 
 ---
 
 ## 📂 Project Structure
-خ
 ## 🔗 Live Demo
 
 You can see the project live here:  
